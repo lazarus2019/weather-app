@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App - Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="alert hide">
+        <i class="fa fa-exclamation-circle"></i>
+        <span class="msg">Warning: This is a warning alert!</span>
+        <span class="close-btn">
+            <i class="fa fa-times"></i>
+        </span>
+    </div>
+
+    <div class="location">
+        <h1 class="location-timezone">TimeZone </h1>
+        <p><img src="" alt="" class="icon"></p>
+    </div>
+    <div class="search">
+        <input type="text" placeholder="Weather in your city" class="search-box">
+    </div>
+    <div class="temperature">
+        <div class="temperature-section">
+            <h2 class="temperature-degree">20</h2>
+            <span>C</span>
+        </div>
+        <div class="temperature-description">It's friggin cold</div>
+    </div>
+    <div class="other-specification">
+        <div class="specification">
+            Humidity: <span class="humidity">66</span> %
+        </div>
+        <div class="specification">
+            Wind Speed: <span class="wind">3.6</span> km/h
+        </div>
+    </div>
+
+    <div class="specifications">
+        <div class="specification-box">
+            <div class="label">Humidity</div>
+            <p><span class="humidity-test">50</span> %</p>
+        </div>
+        <div class="specification-box">
+            <div class="label">Rain</div>
+            <p><span class="humidity-test">50</span> %</p>
+        </div>
+        <div class="specification-box">
+            <div class="label">Humidity</div>
+            <p><span class="humidity-test">50</span> %</p>
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
